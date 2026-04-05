@@ -7,28 +7,94 @@
 	xmlns="http://www.tei-c.org/ns/1.0"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title>Title of the Work</title>
-      <author>Author Name</author>
-    </titleStmt>
-    <publicationStmt>
-      <p>Publication information (e.g., repository, date)</p>
-    </publicationStmt>
-    <sourceDesc>
-      <p>Source description (e.g., original source, manuscript)</p>
-    </sourceDesc>
-  </fileDesc>
-</teiHeader>
-	<text>
-  <body>
-    <lg type="poem">
-      <head>Example Poem Title</head>
-      <lg type="stanza" n="1">
-        <l n="1">Lines can be numbered</l>
-        <l n="2">For easier reference</l>
-      </lg>
-    </lg>
-  </body>
-</text>
+		<fileDesc>
+			<titleStmt>
+				<title>Farai un vers de dreit nien</title>
+				<author>Guglielmo IX</author>
+				<respStmt>
+					<resp>Edizione digitale di </resp>
+					<name>Lorenzo Fabiani</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Edizioni La Tana della Volpe</publisher>
+				<availability>
+					<p>This document is being made available for demonstration and testing purposes
+						only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="C"> Paris, BnF, fr. 856 </witness>
+					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
+				</listWit>
+			</sourceDesc> 
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>Quello che segue è un esempio di lavoro.</p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+		<text>
+		<front>
+		
+			<div>
+Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27.
+			</div>
+		
+		
+		</front>
+		<body>
+<pb n="C, f. 230v" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f528.highres"/>
+<pb	n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
+
+
+<div type="stanza" n="1">
+<lg type="stanza" rhyme = "aaabab">				
+<l>Farai un vers de 
+			<app><lem wit="#E">dreit</lem>
+				<rdg wit="#C" type="orthographic">dreyt</rdg></app>
+												nien</l>
+        <l>non er de mi ni d'autra gen,</l>
+		<l>non er d'amor ni de joven</l>
+		<l>ni de ren au,</l>
+		<l>qu'enans <app><lem wit="#E">fo</lem>
+		                    <rdg wit="#C" type="substantive">fuy</rdg></app> trobatz en durmen</l>
+		<l><app><lem wit="#E">sus un</lem>
+		                    <rdg wit="#C" type="substantive">sobre</rdg></app>
+																			<app><lem wit="E">chivau</lem>
+																			<rdg wit="#C" type="orthographic">chevau</rdg></app>.</l>
+		  </lg>
+	
+	</div>
+
+<div type="stanza" n="2">
+<lg type="stanza" rhyme = "aaabab">	
+<l>No sai en qual 
+	<app>
+	<lem wit="#E">hora·m</lem>
+			<rdg wit="C" type="substantive">guizam</rdg></app> 
+									<app>
+										<lem wit="#E">fui</lem>
+												<rdg wit="C" type="orthographic">fun</rdg></app> 
+																		natz, </l>
+<l>no 
+	<app>
+		<lem wit="#E">soi</lem>
+				<rdg wit="C" type="orthographic">suy</rdg></app> alegres ni iratz, </l>
+<l>no <app>
+		<lem wit="#E">soi</lem>
+				<rdg wit="C" type="orthographic">suy</rdg></app>  
+										
+<app><lem wit="#E">estranhs</lem><rdg wit="C" type="orthographic">estrayns</rdg></app>  ni <app><lem wit="#E">soi</lem><rdg wit="C" type="orthographic">suy</rdg></app>   privatz,</l>
+<l>ni no·n puesc au,</l>
+<l>qu'enaisi fui de nueitz fadatz,</l>
+<l>sobr'un pueg au.</l>
+</lg>
+
+</div>			
+		</body>
+	</text>
 </TEI>
